@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: "Montserrat", sans-serif;
+}
+.header {
+ width: 95%;
+ margin: auto;
+ padding: 30px 0 5px 0;
+}
+
+.canvasContainer {
+ padding-top: 50px;
+ width: 95%;
+ margin: auto;
+}
+
+h2 {
+ font-size: 18px;
+ font-weight: 400;
+}
+
+.lastUpdated {
+ width: 95%;
+ margin: auto;
+ padding: 0 30px;
+ font-size: 12px;
+}
+.prices {
+ width: 95%;
+ margin: auto;
+ display: flex;
+ padding: 30px 0;
+ padding-top: 50px;
+}
+.prices .CurrPrice {
+ color: #00ca2c;
+ margin-right: 0px !important;
+}
+.currPriceContainer {
+ display: flex;
+ align-items: center;
+}
+.priceChangePic {
+ height: 15px;
+ width: 15px;
+ margin-right: 90px;
+ margin-left: 5px;
+}
+.prices span:first-child {
+ margin-left: 10px;
+}
+.prices span:last-child {
+ margin-right: 90px;
+}
+.prices span {
+ font-size: 24px;
+ font-weight: 500;
+}
+
+.inputField {
+ width: 95%;
+ margin: auto;
+ padding: 30px 0;
+}
+.inputField input {
+ padding: 10px 6px 10px 15px;
+ border-radius: 2px;
+ outline: none;
+ border: none;
+ margin-right: 5px;
+ margin-top: 20px;
+ font-size: 16px;
+ color: rgba(0, 0, 0, 0.7);
+ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.inputField input::placeholder {
+ font-size: 14px;
+}
+.inputField button {
+ background-color: #80b6f4; /* Green */
+ border: none;
+ border-radius: 4px;
+ color: white;
+ padding: 10px 36px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ transition: background-color 0.5s;
+ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.inputField button:hover {
+ background-color: #68acfa;
+ color: black;
+ transition: all 0.5s;
+}
+.limits {
+ width: 95%;
+ margin: auto;
+ padding: 30px 0;
+}
+.limits h3 {
+ font-size: 18px;
+ font-weight: 400;
+}
+.limits span {
+ font-weight: 500;
+}
+.limits span:first-child {
+ margin-left: 20px;
+}
+.limits h3:first-child span:first-child {
+ margin-left: 27px;
+}

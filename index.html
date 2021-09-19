@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="icon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <title>BitCoin Price Watcher</title>
+ </head>
+ <body>
+  <div class="header">
+   <h1>Current BitCoin Price</h1>
+  </div>
+  <div class="canvasContainer">
+   <canvas height="60vh"></canvas>
+  </div>
+
+  <div class="mainContainer">
+   <div class="lastUpdated"><span id="lastUpdated">1</span><span> sec ago</span></div>
+
+   <div class="prices">
+    <div class="currPriceContainer">
+     <h2>Current Price: <span class="CurrPrice">$</span><span class="CurrPrice" id="CurrPrice">0</span></h2>
+     <img src="imgs/priceUP.svg" class="priceChangePic" />
+    </div>
+
+    <h2>Lowest: <span>$</span><span id="lowest">$0</span></h2>
+    <h2>Highest: <span>$</span><span id="highest">$0</span></h2>
+   </div>
+   <div class="inputField">
+    <h2>Enter Values to get notified.</h2>
+    <input type="text" name="lowest" id="lowestValue" placeholder="Enter Lowest Value " />
+    <input type="text" name="highest" id="highValue" placeholder="Enter Highest Value " />
+    <button>Submit</button>
+   </div>
+   <div class="limits">
+    <h3>Lowest limit set at: <span>$</span><span id="lowestLimit">0</span></h3>
+    <h3>Highest limit set at: <span>$</span><span id="highestLimit">0</span></h3>
+   </div>
+  </div>
+
+  <script src="script.js"></script>
+ </body>
+</html>
